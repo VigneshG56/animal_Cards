@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PQSI Demo UI Task 2</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ================= NAVBAR ================= -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">PQSI Demo</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#card-container">Cards</a></li>
+          <li class="nav-item"><a class="nav-link" href="#footer">Footer</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ================= PAGE WRAPPER ================= -->
+  <div class="page-wrapper">
+
+    <!-- ================= HERO SECTION ================= -->
+    <header class="hero" id="hero">
+      <h1>Welcome to PQSI UI Task 2</h1>
+      <p>A modern responsive demo project built with HTML, CSS, JavaScript, JSON & Bootstrap.</p>
+    </header>
+
+    <!-- ================= MAIN CONTENT ================= -->
+    <main class="flex-grow-1">
+      <section class="container py-5" id="card-container">
+        <div class="row" id="cards-row">
+          <!-- Cards will be loaded dynamically via JSON -->
+        </div>
+      </section>
+    </main>
+
+  </div> <!-- page-wrapper end -->
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer bg-dark text-white text-center py-3" id="footer">
+    <p class="mb-0">© 2025 PQSI Demo. All Rights Reserved.</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+</body>
+</html>
